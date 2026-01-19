@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+
+@font-face {
+  font-family: 'Actay';
+  src: url('/assets/Fonts/Actay-Regular.woff')  format("woff"); 
+  font-display: swap;
+
+}
+
+.Actay{
+  font-family: Actay;
+}
+
+
+html,body{
+  overflow-x: hidden;
+}
